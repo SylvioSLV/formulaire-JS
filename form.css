@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Time New Roman';
+    font-family: 'Helvetica';
 }
 body{
     background-color: #A9D7E9;
@@ -18,9 +18,15 @@ h1{
 }
 .container, .labelrow{
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .container{
     margin-top: 20px;
+}
+
+label{
+    font-weight: 500;
 }
 .labelrow{
     display: inline;
