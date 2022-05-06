@@ -1,0 +1,74 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Formulaire</title>
+</head>
+<body>
+    <h1>Formulaire DWWM</h1>
+<div class="form">
+    <div class="container">
+        <div class="labelrow">
+            <label for="nom"> Nom </label>
+        </div>
+        <div>
+            <input type="text" id="nom" placeholder="Entrez votre nom">
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="labelrow">
+            <label for="mail">Email</label>
+        </div>
+        <div>
+            <input type="email" id="mail" placeholder="Entrez votre email">
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="labelrow">
+            <label for="num">Indiquez votrre satisfaction <br> au cours de 1 à 10</label>
+        </div>
+        <div>
+            <input type="number" maxlength="10" id="num" placeholder="numéro de 1 à 10">
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="labelrow">
+            <label for="caoch" class="labelrow row">Qui est votre caoch?</label>
+        </div>
+        <div>
+            <select name="liste" id="caoch">
+                <option value="Birante">Birante</option>
+                <option value="Malick">Malick</option>
+                <option value="Mamadou">Mamadou</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="labelrow">
+            <label for="description">Décrivez votre expérience<br> jusque là</label>
+        </div>
+        <div>
+            <textarea id="description" cols="30" rows="4" placeholder="Décrivez votre expérience ici..."></textarea><br>
+        </div>
+    </div>
+    <div class="button">
+        <button onclick="myFunction()">Envoyez</button>
+    </div>
+    
+    <p id="name">  </p>
+    <p id="adresse">  </p>
+    <p id="numero">  </p>
+    <p id="cotch">  </p>
+    <p id="texte">  </p>
+
+    <script src="form.js"></script>
+</div>
+                
+</body>
+</html>
